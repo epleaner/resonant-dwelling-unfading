@@ -7,6 +7,9 @@ module.exports = {
   },
   darkMode: false,
   theme: {
+    fontFamily: {
+      sans: ['Didot', 'sans-serif'],
+    },
     colors: {
       amber: colors.amber,
       black: '#000',
