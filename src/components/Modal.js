@@ -3,7 +3,7 @@ import { Dialog, Transition } from '@headlessui/react';
 import RSVP from './RSVP';
 
 export default function Example() {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const cancelButtonRef = useRef(null);
 
