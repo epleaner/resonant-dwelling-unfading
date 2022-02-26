@@ -5,7 +5,7 @@ const SaveTheDate = function () {
     <div>
       <div className="container flex items-center justify-center px-8">
         <div>
-          <h1 className="mb-8 text-center text-9xl">
+          <h1 className="my-8 text-center text-9xl">
             Save
             <br />
             <em>the</em>
@@ -19,7 +19,7 @@ const SaveTheDate = function () {
           <h1 className="mb-8 text-xl font-bold text-center text-gray-600">
             <em>invitation forthcoming</em>
           </h1>
-          <div className="flex justify-center mt-10">
+          <div className="flex justify-center my-10">
             <RSVPModal />
           </div>
         </div>
