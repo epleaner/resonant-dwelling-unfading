@@ -201,10 +201,6 @@ const Bubbles = () => {
     p.mouseClicked = () => {
       createNewFlower();
     };
-
-    p.keyPressed = () => {
-      if (p.key === 'f') flowfield.toggleShow();
-    };
   };
 
   return <Sketch {...{ sketch }} />;
