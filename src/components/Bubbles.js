@@ -193,7 +193,7 @@ const Bubbles = () => {
     };
 
     const createNewFlower = () => {
-      flowers[flowers.length] = new Flower(initialX, p.map(Math.random(), 0, 1, 0, p.height), flowfield);
+      flowers[flowers.length] = new Flower(initialX, p.map(Math.random(), 0, 1, p.height / 4, p.height), flowfield);
     };
 
     p.mouseClicked = () => {
