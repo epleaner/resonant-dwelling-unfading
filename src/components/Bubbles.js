@@ -157,6 +157,8 @@ const Bubbles = () => {
             this.particles[i].edges();
             this.particles[i].show();
           }
+
+          this.particles = this.particles.filter((p) => !p.dead);
         }
       };
     }
