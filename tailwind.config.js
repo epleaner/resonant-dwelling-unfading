@@ -38,6 +38,7 @@ module.exports = {
     extend: {},
   },
   variants: {
+    border: ['focus-visible'],
     extend: {},
   },
   plugins: [require('@tailwindcss/typography')],
