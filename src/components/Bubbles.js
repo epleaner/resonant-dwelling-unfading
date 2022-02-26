@@ -138,7 +138,7 @@ const Bubbles = () => {
           p.mouseY >= this.center.pos.y - this.radius
         ) {
           this.mode = 'popped';
-          console.log(this.radius);
+
           for (let i = 0; i < 200; i++) {
             const theta = Math.random() * 2 * p.PI;
             let x = this.center.pos.x + (this.radius / 2) * p.cos(theta);
@@ -165,7 +165,7 @@ const Bubbles = () => {
       p.createCanvas(window.innerWidth, window.innerHeight);
       flowfield = new Flowfield();
       p.noFill();
-      p.stroke(0, 100);
+      p.stroke(0, 50);
       p.strokeWeight(1);
       initialX = 0;
       count = 0;

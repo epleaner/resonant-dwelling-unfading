@@ -12,11 +12,11 @@ const SaveTheDate = function () {
             <br />
             Date
           </h1>
-          <h1 className="mb-2 text-xl font-bold text-center">Pem & Eli</h1>
-          <h1 className="mb-2 text-xl font-bold text-center">are getting married</h1>
-          <h1 className="mb-2 text-xl font-bold text-center">April 2nd, 2022</h1>
-          <h1 className="mb-8 text-xl font-bold text-center">San Francisco</h1>
-          <h1 className="mb-8 text-xl font-bold text-center">
+          <h1 className="mb-2 text-xl font-bold text-center text-gray-600">Pem & Eli</h1>
+          <h1 className="mb-2 text-xl font-bold text-center text-gray-600">are getting married</h1>
+          <h1 className="mb-2 text-xl font-bold text-center text-gray-600">April 2nd, 2022</h1>
+          <h1 className="mb-8 text-xl font-bold text-center text-gray-600">San Francisco</h1>
+          <h1 className="mb-8 text-xl font-bold text-center text-gray-600">
             <em>invitation forthcoming</em>
           </h1>
           <div className="flex justify-center mt-10">
