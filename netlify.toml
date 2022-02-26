@@ -1,0 +1,17 @@
+[template]
+  [template.environment]
+
+[build]
+  command = "yarn build"
+  functions = "lambda"
+  publish="build"
+
+[dev]
+  command = "yarn start"
+  port = 3000
+  publish = "build"
+  functionsPort = 9000
+
+[production]
+  command = "yarn build"
+  publish = "build"
