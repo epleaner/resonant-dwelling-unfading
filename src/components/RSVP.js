@@ -4,37 +4,8 @@ const RSVP = function () {
   return (
     <>
       <div className="container flex items-center justify-center px-10">
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>
-              Your Name: <input type="text" name="name" />
-            </label>
-          </p>
-          <p>
-            <label>
-              Your Email: <input type="email" name="email" />
-            </label>
-          </p>
-          <p>
-            <label>
-              Your Role:{' '}
-              <select name="role[]" multiple>
-                <option value="leader">Leader</option>
-                <option value="follower">Follower</option>
-              </select>
-            </label>
-          </p>
-          <p>
-            <label>
-              Message: <textarea name="message"></textarea>
-            </label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
-
-        <form name="savethedate-rsvp" data-netlify="true">
+        <form name="savethedate-rsvp" method="post">
+          <input type="hidden" name="form-name" value="savethedate-rsvp" />
           <div className="mb-6">
             <label htmlFor="name" className="inline-block mb-2 text-xl text-gray-700">
               Name(s)
