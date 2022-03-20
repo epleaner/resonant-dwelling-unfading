@@ -1,5 +1,5 @@
 import React from 'react';
-import SaveTheDate from './SaveTheDate';
+import Wedding from './Wedding';
 import Bubbles from './Bubbles';
 import './App.scss';
 
@@ -10,7 +10,7 @@ const App = () => {
         <Bubbles />
       </div>
       <div className="container flex items-center justify-center max-w-screen-xl min-h-screen page-wrapper">
-        <SaveTheDate />
+        <Wedding />
       </div>
     </>
   );
