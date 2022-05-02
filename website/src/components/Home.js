@@ -1,5 +1,5 @@
 import React from 'react';
-import RSVPModal from './Modal';
+
 const SaveTheDate = function () {
   return (
     <div>
