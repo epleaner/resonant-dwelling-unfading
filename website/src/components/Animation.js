@@ -6,7 +6,7 @@ const Sandstone = () => {
     const nlines = 150;
     const res = 100; // number of segments for each line
     const factor = 0.008; // noise factor
-    const speed = 0.0015;
+    const speed = 0.001;
     let points = [];
 
     let W, H, xstep, ystep;
