@@ -24,6 +24,9 @@ const SaveTheDate = function () {
               Designed for full-body interaction, <em>Resonant, dwelling, unfading</em> envelopes you in fabric and
               light, as shadows cast by your body in motion resound spatially in CNMAT’s 16-speaker array.
             </div>
+
+            <div className="mb-8 text-xl text-gray-500">By Adrian Montufar, Annais Paetsch, and Eli Pleaner</div>
+
             <div className="mb-2 text-gray-600">
               Please reach out to <a href="mailto:resonantdwelling@gmail.com">resonantdwelling@gmail.com</a> with any
               questions.
